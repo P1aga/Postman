@@ -1,0 +1,235 @@
+{
+	"id": "b3ea0742-6ee7-4974-aa2a-5910daedb10b",
+	"name": "Ltsgo",
+	"timestamp": "2022-06-23T11:54:20.423Z",
+	"collection_id": "20978763-dfe0cabc-8303-47bc-b9d6-c6eefc3f2187",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 7,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7644b6b2-dd41-4383-b3ff-8070646b3031",
+			"name": "ep1",
+			"url": "http://162.55.220.72:5007/get_method?name=vad&age=33",
+			"time": 150,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				150
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c12c4fe6-6698-4e0d-920e-da64d12b30ee",
+			"name": "ep2",
+			"url": "http://162.55.220.72:5007/user_info_3",
+			"time": 147,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				147
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d04f3b9e-d624-4e21-8d4b-bca0052a385a",
+			"name": "ep3",
+			"url": "http://162.55.220.72:5007/object_info_1?age=32&weight=66&name=vad",
+			"time": 153,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				153
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8c53d0ea-4060-40b7-9fb9-e458c83ea965",
+			"name": "ep4",
+			"url": "http://162.55.220.72:5007/object_info_2?name=vad&age=33&salary=350",
+			"time": 144,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				144
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4933cedd-99ec-4ff7-aab8-a3f50f1d18a7",
+			"name": "ep5",
+			"url": "http://162.55.220.72:5007/object_info_3?name=vad&age=33&salary=350",
+			"time": 144,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				144
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3b5362b4-f8ea-470f-ab09-ed4374a2d96b",
+			"name": "ep6",
+			"url": "http://162.55.220.72:5007/object_info_4?name=vad&age=33&salary=250",
+			"time": 145,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				145
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a2dbc6a4-f32e-4bad-ab3d-31cff6e7a2f7",
+			"name": "ep7",
+			"url": "http://162.55.220.72:5007/user_info_2",
+			"time": 144,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				144
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1027,
+	"collection": {
+		"requests": [
+			{
+				"id": "7644b6b2-dd41-4383-b3ff-8070646b3031",
+				"method": "GET"
+			},
+			{
+				"id": "c12c4fe6-6698-4e0d-920e-da64d12b30ee",
+				"method": "POST"
+			},
+			{
+				"id": "d04f3b9e-d624-4e21-8d4b-bca0052a385a",
+				"method": "GET"
+			},
+			{
+				"id": "8c53d0ea-4060-40b7-9fb9-e458c83ea965",
+				"method": "GET"
+			},
+			{
+				"id": "4933cedd-99ec-4ff7-aab8-a3f50f1d18a7",
+				"method": "GET"
+			},
+			{
+				"id": "3b5362b4-f8ea-470f-ab09-ed4374a2d96b",
+				"method": "GET"
+			},
+			{
+				"id": "a2dbc6a4-f32e-4bad-ab3d-31cff6e7a2f7",
+				"method": "POST"
+			}
+		]
+	}
+}
